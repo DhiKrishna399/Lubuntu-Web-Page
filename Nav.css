@@ -1,17 +1,7 @@
-.nav a {
-  color: #5a5a5a;
-  font-size: 11px;
-  font-weight: bold;
-  padding: 14px 10px;
-  text-transform: uppercase;
-}
 
-.nav li {
-  display: inline;
-}
 
 .jumbotron {
-  background-image:url('http://pre02.deviantart.net/7169/th/pre/i/2013/218/2/8/mavericks_wave_wallpaper_simplified_by_paulgeorge4-d6gwiyz.jpg');
+  background-image:url('http://www.planwallpaper.com/static/images/HD-Wallpapers1.jpeg');
   height: 500px;
   background-repeat: no-repeat;
   background-size: cover;
@@ -40,4 +30,60 @@
   font-weight: bold;
 color: #FF0000;
 }
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.nav ul {
+  list-style: none;
+  background-color: white;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+}
+
+.nav li {
+  font-family: 'Oswald', sans-serif;
+  font-size: 1.2em;
+  line-height: 40px;
+  height: 40px;
+  border-bottom: 1px solid #888;
+}
+
+.nav a {
+  text-decoration: none;
+  color: #001F5C;
+  display: block;
+  transition: .5s background-color;
+}
+
+.nav a:hover {
+  background-color: #B2B2B2;
+}
+
+
+@media screen and (min-width: 600px) {
+  .nav li {
+    width: 150px;
+    border-bottom: none;
+    height: 50px;
+    line-height: 50px;
+    font-size: 1.4em;
+    
+  }
+  
+  .nav li {
+    display: inline-block;
+    margin-right: -4px;
+  }
+  
+  .nav img {
+      max-height: 45px;
+      position: absolute;
+      top: 2px;
+      left: 5px;
+  }
+
 
